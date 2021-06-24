@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Testing github pages
+    steps:
+      - uses: actions/checkout@v2
+      - uses: bimbimprasetyoafif/pelican-simple@dev
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GH_PAGES_BRANCH: gh-2
