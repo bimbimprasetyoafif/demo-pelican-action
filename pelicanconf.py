@@ -15,7 +15,7 @@ DEFAULT_LANG = 'en'
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'))
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
